@@ -38,6 +38,9 @@ Write an efficient algorithm for the following assumptions:
 ### Comment
 This answer is based on the given sample.
 There is an almost similar question in LeetCode, which you can see through the link below.
- * https://leetcode.com/problems/maximal-network-rank/
+ https://leetcode.com/problems/maximal-network-rank/
 
  The difference between the two questions is that in the current question, the cities must be interconnected, while in the LeetCode question, both cities can be selected and the score is important.
+
+* This question does not mention whether the two selected cities should be connected or not. To solve this question, I assumed that according to the second example, cities 1 and 2 were selected and the answer is `2`. Whereas if we chose cities 2 and 5, the answer would be `4`.
+
