@@ -18,12 +18,12 @@ that, given two arrays A, B consisting of M integers each and an integer N, wher
 1. Given `A = [1,2,3,3)`, `B = [2, 3, 1,4]` and `N = 4`, the function should return `4`. The chosen cities may be 2 and 3, and the four roads connected to them are: `(2,1),(2,3), (3, 1), (3, 4)`.
 In the pictures below, the chosen cities and roads connected to them are marked in red.
 
-![maximal-network-rank](img\maximal-network-rank-sample1.jpg "maximal-network-rank example 1 preview")
+![maximal-network-rank](img/maximal-network-rank-sample1.jpg "maximal-network-rank example 1 preview")
 
 
 2. Given `A = [1, 2, 4, 5]`, `B = [2, 3, 5, 6]` and `N = 6`, the function should return `2`. The chosen cities may be 1 and 2, and the two roads connected to them are: `(1, 2), (2, 3)`.
 
-![maximal-network-rank](img\maximal-network-rank-sample2.jpg "maximal-network-rank example 2 preview")
+![maximal-network-rank](img/maximal-network-rank-sample2.jpg "maximal-network-rank example 2 preview")
 
 
 Write an efficient algorithm for the following assumptions:
